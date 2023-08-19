@@ -1,0 +1,19 @@
+{
+  "oauth": "oauth:OauthPasswordFromTWITCHAPPS.COM/TMI",
+  "twitch_id": "MyTwitchIDHere",
+  "channels": [
+    "jinu6734",
+    "collet11",
+    "2chamcham2",
+    "TwitchChannelIDHere"
+  ],
+  "output_formats": [
+    "textfile",
+    "elasticsearch"
+  ],
+  "elasticsearch": {
+    "hosts": "http://127.0.0.1:9000"
+  },
+  "elasticsearch_index": "twitch-chat",
+  "elasticsearch_bulk_size": 100
+}
